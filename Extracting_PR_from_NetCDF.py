@@ -10,12 +10,12 @@ import netCDF4 as nc
 import os
 
 ###############################################################
-#           EXTRACTING MEAN FROM NETCDF-FILES                 #
+#           EXTRACTING PR FROM NETCDF-FILES                 #
 #                   Anja Katzenberger                         #
 #           anja.katzenberger@pik-potsdam.de                  #
 #                       18.06.2020                            #
 ###############################################################
-# Extracts calculated mean from NetCDF files to python
+# Extracts calculated precipitation means (pr) from NetCDF files to python
 
 # Directories with files of interest
 indir = "/home/anjaka/mean_pr/mean_pr_ssp585"
